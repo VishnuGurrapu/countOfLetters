@@ -19,19 +19,19 @@ class LettersCalculator extends Component {
       <div className="Container">
         <div className="TextContainer">
           <h1 className="heading">Calculate the Letters you enter</h1>
-          <label htmlFor="name" className="para">Enter the phrase</label>
+          <label htmlFor="name" className="para">
+            Enter the phrase
+          </label>
           <input
-          id="name"
-            type="search"
+            id="name"
+            type="text"
             placeholder="Enter the phrase"
             value={searchInput}
             onChange={this.onChangeSearchInput}
             className="search-input"
           />
           <div>
-            <p className="btn">
-              No.of Letters: {searchInput.length}
-            </p>
+            <p className="btn">No.of Letters: {searchInput.length}</p>
           </div>
         </div>
         <div className="imgContainer">
