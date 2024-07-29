@@ -1,0 +1,71 @@
+/* Write your code here. */
+.Container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  background-size: cover;
+  height: 100vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .Container {
+    background-image: linear-gradient(to right, #1d976c, #93f9b9);
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.TextContainer {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 767px) {
+  .TextContainer {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+  }
+}
+
+.img {
+  max-width: 550px;
+}
+@media (max-width: 767px) {
+  .img {
+  width: 80%;
+}
+}
+@media (max-width: 767px) {
+  .imgContainer {
+    order: 1;
+  }
+}
+.search-input {
+  background-color: transparent;
+  color:  #e4e7eb;
+  padding: 5px;
+  margin-bottom: 30px;
+  border-color: #e4e7eb;
+  border-style: solid;
+  border-width: 1px;
+  outline: none;
+  border-radius: 5px;
+}
+.heading {
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: bold;
+}
+.para {
+  color:#ffffff ;
+  font-size: 10px;
+}
+.btn {
+  color: #219a6f;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 8px;
+}
